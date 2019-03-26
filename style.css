@@ -1,0 +1,273 @@
+
+body {
+  font-family:'Roboto Mono', monospace;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width:100%;
+}
+
+main{
+  display:flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article{
+  flex:2;
+  overflow-y: auto;
+}
+
+aside{
+  flex:1;
+  overflow-y: auto;
+}
+
+h1 {
+  font-family: 'Muli:900', sans-serif
+  font-size: 25px;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-weight:black 900;
+  font-size: 20px;
+}
+
+header {
+  height: 85px;
+  background-color: #f4f403;
+  margin-left: -19px;
+  padding-left: 120px;
+  z-index:12;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-right: 120px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0 35px;
+  padding-top: 25px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+.intro{
+  padding-top: 45px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 45px;
+  background-color: #e2ebf1;
+  
+}
+.intro a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+.hello{
+  font-family: 'Muli:900', sans-serif;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+.extract{
+  text-align: justify;
+}
+
+.subtitle{
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-weight:black 900;
+  font-size: 32px;
+}
+
+.container{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.info-center {
+  text-align: center;
+}
+
+.skills{
+  background-color: #d8f5f0;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.proskills{
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.techskills{
+  width:100%;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.techskills h1{
+font-family: 'Muli', sans-serif;
+font-weight: 300;
+font-size:50px;
+text-align: center;
+margin: 0px;
+}
+
+.techskills td {
+  text-align: center;
+}
+
+.techskills1 p {
+  display: inline-block;
+}
+
+.ninety{
+  color:#02703c;
+}
+
+.eighty{
+  color:#029a53;
+}
+
+.sixty{
+  color:#02c569;
+}
+
+.thirty{
+  color:#01f080;
+}
+
+.education{
+  background-color: #dd6258;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.table-edu{
+  margin-left: 24%;
+}
+
+.table-edu h4{
+  font-family: 'Muli', sans-serif;
+  font-weight:black 900;
+  font-size: 16px;
+  margin:0px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 50%
+}
+
+.table-edu p{
+  text-align: center;
+  font-size: 12px;
+  margin:0px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.education h4{
+  font-family: 'Signika', sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.workexp{
+  padding-top:45px;
+  background-color: black;
+  color: white;
+  padding-bottom: 45px;
+}
+
+.workexp p{
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: justify;
+}
+
+.workexp h5{
+  padding-top: 45px;
+  text-align: center;
+  font-family:'Roboto Mono', monospace;
+}
+
+.workexp h3{
+  text-align: center;
+} 
+
+.table-work{
+  background-color: white;
+  color: black;
+}
+
+.table-work td {
+  width: 50%;
+}
+
+.teamI-text {
+ padding: 60px;
+  text-align: left;
+}
+
+.teamI-text h4{
+  
+  font-family: 'Muli', sans-serif;
+  font-weight:black 900;
+  font-size: 20px;
+}
+
+.teamI-text h3{
+  font-family: 'Muli', sans-serif;
+  font-weight:black 900;
+  font-size: 20px;
+}
+
+#hobbies{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.buy{
+  text-align: center;
+}
+
+#smart-thumbnail{
+  width: 30px;
+}
+
+.smart-thumbnail{
+  text-align: center;
+  font-size: 12.5px;
+}
+
+footer{
+  text-align: center;
+  background-color:#ebe9e9;
+}
+
+
