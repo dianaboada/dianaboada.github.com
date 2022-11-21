@@ -8,6 +8,15 @@ body {
   width:100%;
 }
 
+#myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  filter: contrast(2);
+  min-width: 100%;
+  min-height: -50%;
+}
+
 main{
   display:flex;
   flex-direction: row;
@@ -26,18 +35,25 @@ aside{
 
 h1 {
   font-family: 'Muli:900', sans-serif
-  font-size: 25px;
+  font-size: 70px;
 }
 
 h2 {
   font-family: 'Muli', sans-serif;
-  font-weight:black 900;
-  font-size: 20px;
+  /* font-weight:black 900; */
+  font-size: 25px;
+  line-height: 30px;
+  padding-top: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+
 }
 
 header {
   height: 85px;
-  background-color: #f4f403;
+  background-color: #fefe77;
   margin-left: -19px;
   padding-left: 120px;
   z-index:12;
@@ -45,6 +61,28 @@ header {
 
 .logo {
   float: left;
+  border: none;
+  position: relative;
+  animation: img 2s linear infinite;
+  
+}
+
+.logo img{
+  width: 100px;
+  
+}
+
+@keyframes img {
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  80%{
+    transform: scale(1);
+  }
+  
 }
 
 nav {
@@ -66,33 +104,41 @@ nav li{
 }
 
 nav a {
-  color: black;
+  color: #333a1c;
   text-decoration: none;
   border-bottom: 2px solid;
 }
 
 .intro{
   padding-top: 45px;
-  padding-left: 120px;
-  padding-right: 120px;
   padding-bottom: 45px;
-  background-color: #e2ebf1;
+  background-color: #ecffe7;
+
   
 }
+
 .intro a{
-  color: black;
+  color: 333a1c;
   text-decoration: none;
   border-bottom: 2px solid;
 }
 
 .hello{
   font-family: 'Muli:900', sans-serif;
-  font-size: 35px;
+  font-size: 77px;
   margin-bottom: 0px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: #333a1c;
 }
 
 .extract{
   text-align: justify;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size:20px;
+  line-height: 35px;
 }
 
 .subtitle{
@@ -162,11 +208,11 @@ margin: 0px;
   color:#01f080;
 }
 
-.education{
-  background-color: #dd6258;
-  padding-top: 45px;
-  padding-bottom: 45px;
-}
+/* .education{ */
+  /* background-color: #dd6258; */
+  /* padding-top: 45px; */
+  /* padding-bottom: 45px; */
+/* } */
 .table-edu{
   margin-left: 24%;
 }
@@ -198,8 +244,7 @@ margin: 0px;
 }
 
 .workexp{
-  padding-top:45px;
-  background-color: black;
+  background-color: #333a1c;
   color: white;
   padding-bottom: 45px;
 }
@@ -208,6 +253,7 @@ margin: 0px;
   padding-left: 120px;
   padding-right: 120px;
   text-align: justify;
+  font-size: 77px;
 }
 
 .workexp h5{
@@ -216,18 +262,24 @@ margin: 0px;
   font-family:'Roboto Mono', monospace;
 }
 
+.workexp h2{
+  text-align: center;
+  font-size: 77px;
+} 
 .workexp h3{
   text-align: center;
+  font-size: 77px;
 } 
 
 .table-work{
+  width: 50px;
   background-color: white;
   color: black;
 }
 
-.table-work td {
-  width: 50%;
-}
+
+
+
 
 .teamI-text {
  padding: 60px;
