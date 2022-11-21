@@ -272,12 +272,14 @@ margin: 0px;
 } 
 
 .table-work{
-  width: 50px;
+  width: 100%;
   background-color: white;
   color: black;
 }
 
-
+.table-work td {
+  border: solid 5px white;
+}
 
 
 
