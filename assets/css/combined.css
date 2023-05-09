@@ -3358,6 +3358,16 @@ a.text-gray-dark:hover {
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: OpenSauceOne;
+  src: url(../fonts/open-sauce-one/OpenSauceOne-Black.ttf) format('truetype'),
+  url(../fonts/open-sauce-one/OpenSauceOne-Bold.ttf) format('truetype'), 
+  url(../fonts/open-sauce-one/OpenSauceOne-Light.ttf) format('truetype'),
+  url(../fonts/open-sauce-one/OpenSauceOne-Medium.ttf) format('truetype'),
+  url(../fonts/open-sauce-one/OpenSauceOne-Regular.ttf) format('truetype'); 
+  /* font-weight: 400; */
+  font-style: normal;
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -4493,7 +4503,7 @@ html {
   font-size: 15px;
 }
 body {
-  font-family: Work Sans, sans-serif;
+  font-family: OpenSauceOne, sans-serif;
   line-height: 1.65;
   letter-spacing: 0.004em;
   -webkit-font-smoothing: antialiased;
@@ -4536,7 +4546,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Playfair Display, serif;
+  font-family: OpenSauceOne, serif;
   color: #171717;
   font-weight: 700;
 }
@@ -4741,6 +4751,7 @@ h4 {
 }
 .nk-img,
 .nk-img-fit {
+  width: 100%;
   max-width: 100%;
 }
 @media (max-width: 543px) {
@@ -5873,7 +5884,7 @@ h4 {
 .nk-navbar-full .nk-nav .dropdown > li > a,
 .nk-navbar-full .nk-nav > li:last-of-type > a,
 .nk-navbar-full .nk-nav > li > a {
-  font-family: Playfair Display, serif;
+  font-family: OpenSauceOne, serif;
   font-size: 1.7rem;
   text-transform: none;
   font-weight: 700;
@@ -6053,6 +6064,10 @@ h4 {
   opacity: 0.6;
   transition: opacity 0.5s;
 }
+.nk-header-title .container {
+  text-align: start;
+}
+
 .nk-header-title .nk-header-title-scroll-down:hover {
   opacity: 1;
 }
@@ -6486,7 +6501,7 @@ h4 {
   text-align: right;
 }
 blockquote {
-  font-family: Playfair Display, serif;
+  font-family: OpenSauceOne, serif;
   color: #171717;
   font-size: 1.348rem;
   line-height: 1.55;
@@ -6516,7 +6531,7 @@ blockquote.nk-blockquote-style-1 > p:after {
   content: ' ”';
 }
 blockquote.nk-blockquote-style-1 cite {
-  font-family: Work Sans, sans-serif;
+  font-family: OpenSauceOne, sans-serif;
   font-size: 0.96rem;
   font-weight: 500;
   font-style: normal;
@@ -6597,7 +6612,7 @@ blockquote.nk-blockquote-style-1 cite {
 }
 .nk-carousel .nk-carousel-next .nk-carousel-arrow-name,
 .nk-carousel .nk-carousel-prev .nk-carousel-arrow-name {
-  font-family: Playfair Display, serif;
+  font-family: OpenSauceOne, serif;
   font-weight: 700;
   font-size: 1.2rem;
   white-space: nowrap;
@@ -6798,7 +6813,7 @@ blockquote.nk-blockquote-style-1 cite {
 }
 .nk-carousel-3 .nk-carousel-next .nk-carousel-arrow-name,
 .nk-carousel-3 .nk-carousel-prev .nk-carousel-arrow-name {
-  font-family: Playfair Display, serif;
+  font-family: OpenSauceOne, serif;
   font-weight: 700;
   font-size: 1.2rem;
   white-space: nowrap;
@@ -7678,6 +7693,10 @@ a:hover > .nk-icon-search:after {
 }
 .nk-portfolio-single .nk-portfolio-details a:hover {
   opacity: 0.6;
+}
+.nk-portfolio-text p{
+  font-size: 2rem;
+  font-weight:lighter;
 }
 .nk-portfolio-single .nk-portfolio-text + .nk-portfolio-details {
   margin-top: 46px;
