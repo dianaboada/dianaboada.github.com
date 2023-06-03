@@ -386,6 +386,10 @@ h6 {
   font-size: 3.5rem;
   font-weight: 300;
 }
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -3361,10 +3365,10 @@ a.text-gray-dark:hover {
 @font-face {
   font-family: OpenSauceOne;
   src: url(../fonts/open-sauce-one/OpenSauceOne-Black.ttf) format('truetype'),
-  url(../fonts/open-sauce-one/OpenSauceOne-Bold.ttf) format('truetype'), 
-  url(../fonts/open-sauce-one/OpenSauceOne-Light.ttf) format('truetype'),
-  url(../fonts/open-sauce-one/OpenSauceOne-Medium.ttf) format('truetype'),
-  url(../fonts/open-sauce-one/OpenSauceOne-Regular.ttf) format('truetype'); 
+    url(../fonts/open-sauce-one/OpenSauceOne-Bold.ttf) format('truetype'),
+    url(../fonts/open-sauce-one/OpenSauceOne-Light.ttf) format('truetype'),
+    url(../fonts/open-sauce-one/OpenSauceOne-Medium.ttf) format('truetype'),
+    url(../fonts/open-sauce-one/OpenSauceOne-Regular.ttf) format('truetype');
   /* font-weight: 400; */
   font-style: normal;
 }
@@ -4462,6 +4466,10 @@ a:hover {
 .nk-gap-6 {
   display: block;
   height: 20px;
+}
+.nk-gap-7 {
+  display: block;
+  height: 10px;
 }
 .nk-gap-1:after,
 .nk-gap-1:before,
@@ -7694,9 +7702,9 @@ a:hover > .nk-icon-search:after {
 .nk-portfolio-single .nk-portfolio-details a:hover {
   opacity: 0.6;
 }
-.nk-portfolio-text p{
+.nk-portfolio-text p {
   font-size: 2rem;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 .nk-portfolio-single .nk-portfolio-text + .nk-portfolio-details {
   margin-top: 46px;
