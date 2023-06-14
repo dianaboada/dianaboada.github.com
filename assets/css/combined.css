@@ -7523,7 +7523,8 @@ a:hover > .nk-icon-search:after {
   .nk-portfolio-item-info,
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-2:hover
-  .nk-portfolio-item-info {
+  .nk-portfolio-item-info,
+.nk-disabled.nk-portfolio-item-info {
   opacity: 1;
 }
 .nk-portfolio-list
@@ -7531,7 +7532,8 @@ a:hover > .nk-icon-search:after {
   .nk-portfolio-item-info,
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-2.hover
-  .nk-portfolio-item-info {
+  .nk-portfolio-item-info,
+.nk-disabled.nk-portfolio-item-info {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .nk-portfolio-list
@@ -7539,7 +7541,8 @@ a:hover > .nk-icon-search:after {
   .nk-portfolio-item-info,
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-2.hover:hover
-  .nk-portfolio-item-info {
+  .nk-portfolio-item-info,
+.nk-disabled.nk-portfolio-item-info {
   background-color: rgba(0, 0, 0, 0.85);
 }
 .nk-portfolio-list
@@ -7574,6 +7577,8 @@ a:hover > .nk-icon-search:after {
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-1:hover
   .portfolio-item-title,
+.nk-disabled.portfolio-item-category,
+.nk-disabled.portfolio-item-title,
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-2.hover
   .portfolio-item-category,
@@ -7585,7 +7590,8 @@ a:hover > .nk-icon-search:after {
   .portfolio-item-category,
 .nk-portfolio-list
   .nk-portfolio-item.nk-portfolio-item-info-style-2:hover
-  .portfolio-item-title {
+  .portfolio-item-title,
+.nk-disabled {
   transform: translateY(0);
   opacity: 1;
 }
