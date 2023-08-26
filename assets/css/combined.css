@@ -484,6 +484,9 @@ code {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .description-wrapper{
+    padding-right: 50px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -2030,6 +2033,7 @@ tbody.collapse.active {
   .navbar {
     border-radius: 0.25rem;
   }
+
 }
 .navbar-full {
   z-index: 1000;
@@ -8148,4 +8152,8 @@ a:hover > .nk-icon-search:after {
 .nano:hover > .nano-pane {
   visibility: visible\9;
   opacity: 0.99;
+}
+
+.description-wrapper {
+  padding-right: 15px;
 }
