@@ -7336,7 +7336,7 @@ a:hover > .nk-icon-search:after {
   }
 }
 .nk-isotope-filter {
-  display: none;
+  display: block;
   list-style: none;
   padding: 0;
   margin-bottom: 30px;
@@ -7345,7 +7345,7 @@ a:hover > .nk-icon-search:after {
   text-align: center;
 }
 .nk-isotope-filter.nk-isotope-filter-active {
-  display: block;
+  display: none;
 }
 .nk-isotope-filter > li {
   display: inline-block;
