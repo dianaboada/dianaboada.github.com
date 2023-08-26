@@ -485,7 +485,7 @@ code {
     padding-left: 15px;
   }
   .description-wrapper{
-    padding-right: 50px;
+    padding-right: 50px !important;
   }
 }
 @media (min-width: 1200px) {
@@ -8156,4 +8156,5 @@ a:hover > .nk-icon-search:after {
 
 .description-wrapper {
   padding-right: 15px;
+  line-height: 1.3;
 }
