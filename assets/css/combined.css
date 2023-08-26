@@ -8158,3 +8158,7 @@ a:hover > .nk-icon-search:after {
   padding-right: 15px;
   line-height: 1.3;
 }
+
+.disabled-link {
+  pointer-events: none;
+}
