@@ -462,6 +462,10 @@ code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.two-col {
+  display: flex;
+  flex-direction: column;
+}
 .container:after {
   content: '';
   display: table;
@@ -478,13 +482,16 @@ code {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .two-col {
+    flex-direction: row;
+  }
 }
 @media (min-width: 992px) {
   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .description-wrapper{
+  .description-wrapper {
     padding-right: 50px !important;
   }
 }
@@ -2033,7 +2040,6 @@ tbody.collapse.active {
   .navbar {
     border-radius: 0.25rem;
   }
-
 }
 .navbar-full {
   z-index: 1000;
