@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+  Nombre: Snow - Plantilla HTML de Portafolio Minimalista y Limpio
+  Versión: 1.0.1
+  Autor: nK, unvab
+  Sitio web: https://nkdev.info, http://unvab.com/
+  Compra: https://nkdev.info
+  Soporte: https://nk.ticksy.com
+  Licencia: Debes tener una licencia válida comprada solo en ThemeForest (el enlace anterior) para usar legalmente el tema en tu proyecto.
+  Copyright 2017.
+-->
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Portafolio de Diana</title>
+
+    <meta name="description" content="Snow - Plantilla HTML de Portafolio Minimalista y Limpio." />
+    <meta name="keywords" content="portafolio, limpio, minimalista, blog, plantilla, sitio web de portafolio" />
+    <meta name="author" content="nK" />
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- INICIO: Estilos -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i%7cWork+Sans:400,500,700"
+        rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="../assets/css/combined.css" />
+
+    <!-- FIN: Estilos -->
+</head>
+
+<body>
+    <header class="nk-header nk-header-opaque">
+        <!-- INICIO: Barra de Navegación -->
+        <nav class="nk-navbar nk-navbar-top">
+            <div class="container">
+                <div class="nk-nav-table">
+                    <a href="index.html" class="nk-nav-logo">
+                        <img src="../assets/images/logo-light.svg" alt="" width="85" class="nk-nav-logo-onscroll" />
+                        <img src="../assets/images/logo.svg" alt="" width="85" />
+                    </a>
+
+                    <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
+                        <!-- <li>
+              <a href="index.html#about">Sobre mí</a>
+            </li> -->
+                        <li>
+                            <a href="index.html#contact">Contacto</a>
+                        </li>
+                        <li class="active">
+                            <a href="portfolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nk-nav nk-nav-right nk-nav-icons">
+                        <li class="single-icon hidden-lg-up">
+                            <a href="#" class="nk-navbar-full-toggle">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN: Barra de Navegación -->
+    </header>
+
+    <!-- INICIO: Barra de Navegación Móvil -->
+    <nav class="nk-navbar nk-navbar-full nk-navbar-align-center" id="nk-nav-mobile">
+        <div class="nk-navbar-bg">
+            <div class="bg-image" style="background-image: url('../assets/images/bg-menu.jpg')"></div>
+        </div>
+    </nav>
+    <!-- FIN: Barra de Navegación Móvil -->
+
+    <div class="nk-main">
+        <div class="container">
+            <!-- INICIO: Filtro -->
+            <ul class="nk-isotope-filter">
+                <li class="active" data-filter="*">Todo</li>
+                <li data-filter="Branding">Branding</li>
+                <li data-filter="Print">Impresión</li>
+                <li data-filter="Design">Diseño</li>
+                <li data-filter="Mockup">Mockup</li>
+            </ul>
+            <!-- FIN: Filtro -->
+
+            <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+                <div class="nk-isotope-item" data-filter="Mockup">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="nordic-oil.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('../assets/images/portfolio-7-sm.jpg');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">Nordic Oil</h2>
+                                <div class="portfolio-item-category">Diseño Web</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
